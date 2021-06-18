@@ -20,13 +20,20 @@ $( ".service-content" ).click(function()
 });
 
 
-$( ".col" ).mouseenter(function() 
+
+// portfolio
+$(document).ready(function(){
+$( ".portfolio-img" ).mouseenter(function() 
 {
-    $("h6").show();
+    var closestCol = $(this).closest(".portfolio-img");
+    closestCol.next("h6").show();
   })
   .mouseleave(function() {
     $("h6" ).hide();
 });
+});
+
+
 
 // $(document).ready(function(){
 //     $( ".service-img" ).click(function() 

@@ -1,0 +1,191 @@
+body
+{
+}
+
+/* .......................
+HEADER
+........................ */
+#header
+{
+    background-image: url("/static/assets/backgrounds/h_img.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#header .header-content
+{
+    text-align: center;
+}
+#header .header-content img
+{
+    margin-bottom: 1em;
+}
+#header .header-bottom
+{
+    position: absolute;
+    bottom: 2em;
+}
+/* .......................
+ABOUT US
+........................ */
+#about-us
+{
+    text-align: center;
+    margin:4em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#about-us p
+{
+    line-height: 2em;
+}
+/* .......................
+SERVICES
+........................ */
+#services
+{
+    background-image: url("/static/assets/backgrounds/s_image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.service-content:hover
+{
+  cursor: pointer;
+}
+.service-content
+{
+    display: none;
+}
+.service-img :hover
+{
+    cursor: pointer;
+}
+/* .......................
+WHAT WE DO
+........................ */
+#whatWeDo
+{
+    text-align: center;
+    margin:4em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#whatWeDo h3
+{
+    margin:1em
+}
+#whatWeDo h5
+{
+    margin-top: 0.5em;
+}
+/* ......................
+PORTFOLIO
+........................ */
+#portfolio
+{
+    text-align: center;
+    margin:4em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#portfolio h3
+{
+    margin:1em
+}
+#portfolio .row
+{
+    margin-bottom: 2em;
+}
+#portfolio .col img:hover
+{
+    cursor: pointer;
+}
+#portfolio h6
+{
+background-color: rgb(143, 138, 138);
+color: #fff;
+    position: absolute;
+    padding: 0.3em;
+    top: 50%;
+    display: none;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* ......................
+CONTACT
+........................ */
+#contact
+{
+    background-image: url("/static/assets/backgrounds/c_image.jpg");
+    text-align: center;
+    color: #fff ;
+    height: 30em;
+    padding:1em 2em;
+}
+#contact h3
+{
+    margin:1em 0px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#contact .row1
+{
+    width: 80% !important;
+    margin: auto;
+    margin-bottom: 2em;
+}
+#contact .row2
+{
+    margin: auto;
+    width: 70%;
+}
+#contact .row2 textarea
+{
+    resize: none;
+    color: #fff !important;
+}
+#contact .form-control
+{
+    background-color: transparent !important;
+    color: #fff !important;
+    border-radius: 0px;
+    margin-top: 1em;
+}
+
+::placeholder 
+{
+    color: #fff !important;
+}
+/* ......................
+FOOTER
+........................ */
+#footer
+{
+    text-align: center;
+    margin: 2em auto 1em;
+}
+#footer ul li
+{
+    display: inline;
+    margin: 0.5em;
+    list-style: none;
+    width: 40px;
+}

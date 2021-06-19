@@ -36,6 +36,13 @@ $( ".portfolio-img" ).mouseenter(function()
 });
 
 
+function myForm()
+{
+    document.getElementById("name").value;
+    document.getElementById("email").value;
+    document.getElementById("message").value;
+
+}
 
 // $(document).ready(function(){
 //     $( ".service-img" ).click(function() 

@@ -100,7 +100,6 @@ PORTFOLIO
 #portfolio
 {
     text-align: center;
-    margin:4em;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -194,14 +193,19 @@ FOOTER
 #footer
 {
     text-align: center;
-    margin: 2em auto 1em;
+    margin: 2em auto 1em auto;
+}
+#footer ul 
+{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 #footer ul li
 {
-    display: inline;
     margin: 0.5em;
-    list-style: none;
-    width: 40px;
+    list-style-type: none;
 }
 
 
@@ -230,3 +234,50 @@ FOOTER
 {
     text-decoration: none;
 }
+
+/* ...............................
+  RESPONSIVENESS
+............................... */
+@media screen and (max-width: 780px) 
+{
+    #header h1
+    {
+        font-size: 1.5em;
+    }
+    #header p
+    {
+        font-size: 0.8em;
+    }
+
+        /* .......................
+    ABOUT US
+    ........................ */
+    #about-us
+    {
+        margin:0.5em;
+    }
+    #about-us p
+    {
+        line-height: 1.5em;
+    }
+   /* ......................
+FOOTER
+........................ */
+#footer
+{
+    text-align: center;
+    margin: 2em auto 1em;
+}
+#footer ul li
+{
+    margin: 0.5em;
+    list-style: none;
+}
+
+
+#footer .float
+{
+	right:5%;
+}
+}
+  

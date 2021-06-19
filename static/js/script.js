@@ -38,9 +38,19 @@ $( ".portfolio-img" ).mouseenter(function()
 
 function myForm()
 {
-    document.getElementById("name").value;
-    document.getElementById("email").value;
-    document.getElementById("message").value;
+       var name = document.getElementById("name").value;
+       var email = document.getElementById("email").value;
+       var message = document.getElementById("message").value;
+
+    if (name.length<1 || email.length<1 || message.length<1) 
+    {
+        alert("All fields must be field!");
+        return false;
+    }
+    else
+    {
+        alert("Success");
+    }
 
 }
 

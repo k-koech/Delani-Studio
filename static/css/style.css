@@ -151,13 +151,6 @@ CONTACT
     background-repeat: no-repeat;
 
 }
-#contact .alert
-{
-    width: 50%;
-    margin: auto;
-    display: none;
-}
-
 #contact .row1
 {
     width: 80% !important;

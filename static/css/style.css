@@ -184,6 +184,10 @@ CONTACT
 {
     color: #000;
 }
+#contact #popUpModal span
+{
+    font-weight: 800;
+}
 /* ......................
 FOOTER
 ........................ */

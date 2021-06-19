@@ -1,26 +1,24 @@
-$(document).ready(function(){
-$( ".service-img" ).click(function() 
+$(document).ready(function() 
 {
-    var closestImg = $(this).closest(".service-img");
-    closestImg.next(".service-content").show();
-    // $( ".service-content" ).toggle();
-    closestImg.hide();
-   
+    $( ".service1" ).click(function() 
+    {
+        $(".service1-content" ).toggle(); 
+        $(".service1-img").toggle();
+    });
+
+    $( ".service2" ).click(function() 
+    {
+        $(".service2-content" ).toggle(); 
+        $(".service2-img").toggle();
+    });
+
+    $( ".service3" ).click(function() 
+    {
+        $(".service3-content" ).toggle(); 
+        $(".service3-img").toggle();
+    });
+
 });
-
-$( ".service-content" ).click(function() 
-{
-    var closestContent = $(this).closest(".service-content");
-    // var closestIm = $(this).closest(".service-img");
-
-    closestIm.next(".service-img").show();
-    closestContent.next(".service-content").hide();
-   
-});
-
-
-});
-
 
 
 // portfolio
@@ -36,6 +34,8 @@ $( ".portfolio-img" ).mouseenter(function()
 });
 
 
+
+// form
 function myForm()
 {
        var name = document.getElementById("name").value;
@@ -49,20 +49,8 @@ function myForm()
     }
     else
     {
-        document.getElementsByClassName("popUpText").innerHTML = "name";
+        document.getElementById("popUpText").innerHTML = name;
         $("#popUpModal").modal();
     }
 
 }
-
-// $(document).ready(function(){
-//     $( ".service-img" ).click(function() 
-//     {
-//         var closestClass = $(this).closest(".service-img");
-//         closestClass.next(".service-content").show();
-//         // $( ".service-content" ).toggle();
-//         // $( ".service-img" ).toggle();
-      
-//     });
-    
-//     });

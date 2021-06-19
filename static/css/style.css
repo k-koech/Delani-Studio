@@ -46,6 +46,8 @@ ABOUT US
 {
     line-height: 2em;
 }
+
+
 /* .......................
 SERVICES
 ........................ */
@@ -74,6 +76,7 @@ SERVICES
 {
     cursor: pointer;
 }
+
 /* .......................
 WHAT WE DO
 ........................ */
@@ -93,6 +96,7 @@ WHAT WE DO
 {
     margin-top: 0.5em;
 }
+
 /* ......................
 PORTFOLIO
 ........................ */
@@ -116,16 +120,20 @@ PORTFOLIO
 {
     cursor: pointer;
 }
-#portfolio h6
+#portfolio .caption
 {
-background-color: rgb(143, 138, 138);
-color: #fff;
+    background-color: #fff !important;
+    color: rgb(0, 0, 0);
     position: absolute;
     padding: 0.3em;
     top: 50%;
     display: none;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+#portfolio .caption:hover
+{
+    background-color: blue !important;
 }
 /* ......................
 CONTACT

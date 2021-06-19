@@ -4,7 +4,7 @@ HEADER
 ........................ */
 #header
 {
-    background-image: url("/static/assets/backgrounds/h_img.jpg");
+    background-image: url(../assets/backgrounds/h_img.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ SERVICES
 ........................ */
 #services
 {
-    background-image: url("/static/assets/backgrounds/s_image.jpg");
+    background-image: url(../assets/backgrounds/s_image.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -136,7 +136,7 @@ CONTACT
 ........................ */
 #contact
 {
-    background-image: url("/static/assets/backgrounds/c_image.jpg");
+    background-image: url(../assets/backgrounds/c_image.jpg);
     text-align: center;
     color: #fff ;
     height: 30em;
@@ -193,21 +193,24 @@ FOOTER
 #footer
 {
     text-align: center;
-    margin: 2em auto 1em auto;
+    margin: 2em auto 1em;
 }
-#footer ul 
+#footer .social-icons
 {
-    display: block;
+    padding: auto;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    margin-bottom: 1em;
 }
-#footer ul li
+#footer .social-icons div
 {
-    margin: 0.5em;
+    margin: 0.2em;
+    width:5% ;
+    display: flex;
+    justify-content: center;
     list-style-type: none;
 }
-
 
 #footer .float
 {
@@ -270,7 +273,6 @@ FOOTER
 }
 #footer ul li
 {
-    margin: 0.5em;
     list-style: none;
 }
 

@@ -37,4 +37,4 @@
   
 ## License and Copyright information
    Copyright 2021 Kelvin Kipchumba Koech
-   Licenced under [MT License](https://github.com/k-koech/Delani-Studio/blob/master/LICENSE.md).
+   Licenced under [MT License](https://github.com/k-koech/Delani-Studio/blob/master/LICENCE.md).

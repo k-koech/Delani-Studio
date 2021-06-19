@@ -6,27 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">    <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Delani Studio</title>
     
   </head>
   <body>
-<!-- - - - - - - - - - - -
-    HEADER SECTION
-- -  - - - - - - - - -  -->
-<section id="header">
-    <div class="header-content">
-        <img src="static/assets/logo/logo.png" class="img-fluid" alt="image">
-        <h1>WELCOME TO</h1>
-        <h1>DELANI STUDIO</h1>
-        <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-    </div>
-    <div class="header-bottom">
-        <img src="static/assets/mouse_click.png" alt="">
-    </div>
-</section>
 
 <!-- - - - - - - - - - - - 
     ABOUT SECTION
@@ -152,7 +137,6 @@
 - - - - - - - - - - - -->
 <section id="contact">
  <h3>CONTACT US</h3>
-    <div class="alert alert-danger" role="alert">
     </div>
     <div class="row row1">
         <div class="col-sm-6">
@@ -166,13 +150,38 @@
         <textarea rows="8" class="form-control" id="message" placeholder="Your message here..." required></textarea>
     </div>
     <button type="button" onclick="myForm()" class="btn btn-success mt-3">Success</button>
+     
+          <!-- Button trigger modal 
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#popUpModal">
+  Launch demo modal
+</button>-->
+
+    <!-- Modal -->
+    <div id="popUpModal" class="modal fade" id="popUpModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Message Delivered!!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            ** <div class="popUpText"></div> we have received your message. Thank you fro reaching out to us. **
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+    </div>
+    </div>
 </section>
 
 <!--- - - - - - - - - - - 
     footer
 - - - - - - - - - - - -->
 <section id="footer"> 
-    <!-- Button trigger modal -->
+    <!-- Button trigger modal --> 
         <a href="" class="float" data-toggle="modal" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" target="_blank" data-placement="left" title="Please leave a message for me">
             <i class="fa fa-envelope-o" aria-hidden="true"></i>
         </a>
@@ -209,12 +218,17 @@
     <h6>DELANI STUDIO</h6>
     <h6>2019</h6>
 </section>
-    
+
+
+
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
     <script src="static/js/script.js"></script>
 

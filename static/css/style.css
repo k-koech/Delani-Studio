@@ -179,7 +179,11 @@ CONTACT
 {
     color: #fff !important;
 }
-
+   
+#contact #popUpModal
+{
+    color: #000;
+}
 /* ......................
 FOOTER
 ........................ */

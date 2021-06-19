@@ -23,7 +23,7 @@
     - The site should tell the user through a pop up that you have received their message and also thank them for contacting me.
   
 ## Live link
-   Deployed project can be accessed here -  [Akan Names Generator](https://k-koech.github.io/Delani-Studio/)
+   Deployed project can be accessed here -  [Delani Koech](https://k-koech.github.io/Delani-Studio/)
    
 ## Technologies used
     - JS

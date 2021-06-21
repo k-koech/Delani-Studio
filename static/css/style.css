@@ -1,4 +1,7 @@
-
+h3
+{
+    font-weight: 800;
+}
 /* .......................
 HEADER
 ........................ */
@@ -92,6 +95,11 @@ WHAT WE DO
 #whatWeDo h5
 {
     margin-top: 0.5em;
+    font-weight: 700;
+}
+#whatWeDo .col
+{
+    margin-top: 1em;
 }
 
 /* ......................
@@ -127,10 +135,7 @@ PORTFOLIO
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#portfolio .caption:hover
-{
-    background-color: blue !important;
-}
+
 /* ......................
 CONTACT
 ........................ */

@@ -25,8 +25,8 @@ $(document).ready(function()
 $(document).ready(function(){
 $( ".portfolio-img" ).mouseenter(function() 
 {
-    var closestCol = $(this).closest(".portfolio-img");
-    closestCol.next(".caption").slideDown(100);
+    var closestImage = $(this).closest(".portfolio-img");
+    closestImage.next(".caption").slideDown(100);
   })
   .mouseleave(function() {
     $(".caption" ).hide();

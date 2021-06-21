@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">    <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Delani Studio</title>
@@ -55,15 +57,14 @@ based on your requirements, we can provide acomplete offering or just the pieces
     </div>
     
 </section>
-
-<!-- - - - - - - - - - - - 
+ <!-- - - - - - - - - - - - 
     WHAT WE DO
 - - - - - - - - - - - -->
 <section id="whatWeDo">
     <div class="container">
         <h3>WHAT WE DO</h3>
         <div class="row">
-            <div class="col-md-4 service1 col">
+            <div class="col-md-4 service1 cols">
                 <div class="service1-img service-img">
                     <img src="static/assets/services_icons/design_icon.png" class="img-fluid" alt="img loading">
                     <h5>DESIGN</h5>
@@ -74,7 +75,7 @@ based on your requirements, we can provide acomplete offering or just the pieces
                         Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
                 </div>
             </div>
-            <div class="col-md-4 service2 col">
+            <div class="col-md-4 service2 cols">
                 <div class="service2-img service-img">
                     <img src="static/assets/services_icons/dev_icon.png" class="img-fluid" alt="img loading">
                     <h5>DEVELOPMENT</h5>
@@ -86,7 +87,7 @@ based on your requirements, we can provide acomplete offering or just the pieces
                     </p>
                 </div>
             </div>
-            <div class="col-md-4 service3 col">
+            <div class="col-md-4 service3 cols">
                 <div class="service3-img service-img">
                     <img src="static/assets/services_icons/product_icon.png" class="img-fluid" alt="img loading">
                     <h5>PRODUCT MANAGEMENT</h5>  
@@ -164,9 +165,9 @@ based on your requirements, we can provide acomplete offering or just the pieces
         </div>
     </div>
     <div class="row row2">
-        <textarea rows="8" class="form-control" id="message" placeholder="Your message here..." required></textarea>
+        <textarea rows="9" class="form-control" id="message" placeholder="Your message here..." required></textarea>
     </div>
-    <button type="button" onclick="myForm()" class="btn btn-success mt-3">Success</button>
+    <button type="button" onclick="myForm()" class="btn btn-secondary mt-3">Submit</button>
 
     <!-- Modal for alert message  -->
     <div id="popUpModal" class="modal fade" id="popUpModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -194,8 +195,8 @@ based on your requirements, we can provide acomplete offering or just the pieces
 - - - - - - - - - - - -->
 <section id="footer"> 
 <!-- Button trigger modal --> 
-    <a href="" class="float" data-toggle="modal" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" target="_blank" data-placement="left" title="Please leave a message for me">
-        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+    <a href="" class="float blink_me" data-toggle="modal" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" target="_blank" data-placement="left" title="Please leave a message for me">
+        <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
     </a>
 
     <!-- Modal for mailchimp -->

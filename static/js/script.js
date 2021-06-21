@@ -49,6 +49,9 @@ function myForm()
     }
     else
     {
+        document.getElementById("name").value="";
+        document.getElementById("email").value="";
+        document.getElementById("message").value="";
         document.getElementById("popUpText").innerHTML = name;
         $("#popUpModal").modal();
     }

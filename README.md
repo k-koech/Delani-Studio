@@ -2,7 +2,6 @@
     - Delani Studio
 ​
 ## Project description
-    - 
     - The app has a mailchimp API for tracking users messages
     - The web app has an about me section to tell users about Delani Studio. 
     - On the portfolio section is the past projects done by Delani Studio.
@@ -33,7 +32,7 @@
     - Bootstrap
 
 ## Dependency
-    - This repository contains several project files and an external Git repository dependency that demonstrates submodule usage.
+    - This repository contains several project files and live site link to demonstrate how it works.
   
 ## Contact information
     - WhatsApp +254725801772

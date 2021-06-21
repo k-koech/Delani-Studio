@@ -223,8 +223,8 @@ FOOTER
 #footer .float
 {
 	position:fixed;
-	width:60px;
-	height:60px;
+	width:65px;
+	height:65px;
 	bottom:40px;
 	right:3%;
 	background-color:rgba(1, 80, 50, 0.925);
